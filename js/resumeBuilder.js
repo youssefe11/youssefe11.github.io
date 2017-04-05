@@ -206,103 +206,103 @@ education.display();
 // /**
 //  * Skills Chart
 //  */
-$(function() {
-    $('#container').highcharts({
-        chart: {
-            type: 'scatter',
-            zoomType: 'xy'
-        },
-        title: {
-            text: 'Skills'
-        },
-        xAxis: {
-            title: {
-                enabled: true,
-                text: 'Used (year)'
-            },
-            startOnTick: true,
-            endOnTick: true,
-            showLastLabel: true
-        },
-        yAxis: {
-            title: {
-                text: 'Duration (months)'
-            }
-        },
-        legend: {
-            layout: 'vertical',
-            align: 'left',
-            verticalAlign: 'top',
-            x: 250,
-            y: 0,
-            floating: true,
-            backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
-            borderWidth: 1
-        },
-        plotOptions: {
-            scatter: {
-                marker: {
-                    radius: 5,
-                    states: {
-                        hover: {
-                            enabled: true,
-                            lineColor: 'rgb(100,100,100)'
-                        }
-                    }
-                },
-                states: {
-                    hover: {
-                        marker: {
-                            enabled: false
-                        }
-                    }
-                },
-                tooltip: {
-                    headerFormat: '<b>{series.name}</b><br>',
-                    pointFormat: 'Used in {point.x} for {point.y} month(s)'
-                }
-            }
-        },
-        series: [{
-                name: 'Python',
-                color: 'rgba(119, 152, 191, .5)',
-                data: [
-                    [2016, 3]
-                ]
-            },
-            {
-                name: 'Javascript',
-                color: 'rgba(204, 0, 0, .5)',
-                data: [
-                    [2017, 3]
-                ]
-            },
-            {
-                name: 'HTML',
-                color: 'rgba(153, 51, 0, .5)',
-                data: [
-                    [2016, 1],
-                    [2017, 1]
-                ]
-            },
-            {
-                name: 'Web Development',
-                color: 'rgba(0, 153, 102, .5)',
-                data: [
-                    [2017, 4]
-                ]
-            },
-            {
-                name: 'CSS',
-                color: 'rgba(0, 102, 51, .5)',
-                data: [
-                    [2016, 2],
-                    [2017, 2]
-                ]
-            }
-        ]
-    });
-});
+// $(function() {
+//     $('#container').highcharts({
+//         chart: {
+//             type: 'scatter',
+//             zoomType: 'xy'
+//         },
+//         title: {
+//             text: 'Skills'
+//         },
+//         xAxis: {
+//             title: {
+//                 enabled: true,
+//                 text: 'Used (year)'
+//             },
+//             startOnTick: true,
+//             endOnTick: true,
+//             showLastLabel: true
+//         },
+//         yAxis: {
+//             title: {
+//                 text: 'Duration (months)'
+//             }
+//         },
+//         legend: {
+//             layout: 'vertical',
+//             align: 'left',
+//             verticalAlign: 'top',
+//             x: 250,
+//             y: 0,
+//             floating: true,
+//             backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
+//             borderWidth: 1
+//         },
+//         plotOptions: {
+//             scatter: {
+//                 marker: {
+//                     radius: 5,
+//                     states: {
+//                         hover: {
+//                             enabled: true,
+//                             lineColor: 'rgb(100,100,100)'
+//                         }
+//                     }
+//                 },
+//                 states: {
+//                     hover: {
+//                         marker: {
+//                             enabled: false
+//                         }
+//                     }
+//                 },
+//                 tooltip: {
+//                     headerFormat: '<b>{series.name}</b><br>',
+//                     pointFormat: 'Used in {point.x} for {point.y} month(s)'
+//                 }
+//             }
+//         },
+//         series: [{
+//                 name: 'Python',
+//                 color: 'rgba(119, 152, 191, .5)',
+//                 data: [
+//                     [2016, 3]
+//                 ]
+//             },
+//             {
+//                 name: 'Javascript',
+//                 color: 'rgba(204, 0, 0, .5)',
+//                 data: [
+//                     [2017, 3]
+//                 ]
+//             },
+//             {
+//                 name: 'HTML',
+//                 color: 'rgba(153, 51, 0, .5)',
+//                 data: [
+//                     [2016, 1],
+//                     [2017, 1]
+//                 ]
+//             },
+//             {
+//                 name: 'Web Development',
+//                 color: 'rgba(0, 153, 102, .5)',
+//                 data: [
+//                     [2017, 4]
+//                 ]
+//             },
+//             {
+//                 name: 'CSS',
+//                 color: 'rgba(0, 102, 51, .5)',
+//                 data: [
+//                     [2016, 2],
+//                     [2017, 2]
+//                 ]
+//             }
+//         ]
+//     });
+// });
 
 
-$("#mapDiv").append(googleMap);
+// $("#mapDiv").append(googleMap);
